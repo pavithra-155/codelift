@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitHub Analyzer</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<div class="container">
+
+<div class="sidebar">
+    <h2>CodeLift</h2>
+
+    <a href="../index.html">Dashboard</a>
+    <a href="job-gap.html">Job Gap Analyzer</a>
+    <a href="github-analyzer.html">GitHub Analyzer</a>
+    <a href="resume-analyzer.html">Resume Analyzer</a>
+</div>
+
+<div class="main">
+<section class="hero">
+    <h2>Analyze Your GitHub Profile</h2>
+    <p>Evaluate your developer activity and project strength</p>
+</section>
+
+<section class="tools">
+
+<input id="username" placeholder="Enter GitHub username">
+
+<button onclick="analyzeGitHub()">Analyze Profile</button>
+
+<div id="githubResult" class="resultBox"></div>
+
+</section>
+</div>
+<script src="../script.js"></script>
+
+</body>
+</html>

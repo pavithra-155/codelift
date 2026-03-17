@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Gap Analyzer</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+    <h2>CodeLift</h2>
+
+    <a href="../index.html">Dashboard</a>
+    <a href="job-gap.html">Job Gap Analyzer</a>
+    <a href="github-analyzer.html">GitHub Analyzer</a>
+    <a href="resume-analyzer.html">Resume Analyzer</a>
+</div>
+
+<div class="main">
+<section class="hero">
+    <h2>Analyze Your Job Readiness</h2>
+    <p>Compare your skills with job requirements</p>
+</section>
+
+<section class="tools">
+
+<textarea id="jobDesc" placeholder="Paste job description here"></textarea>
+
+<input id="skills" placeholder="Your skills (comma separated)">
+
+<button onclick="analyze()">Analyze</button>
+
+<div id="resultBox" class="resultBox"></div>
+
+</section>
+</div>
+<script src="../script.js"></script>
+
+</body>
+</html>
